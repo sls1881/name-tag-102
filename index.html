@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Tag 102</title>
     <link rel="stylesheet" href="style.CSS">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = 'border'>
-        <div class = 'container'>
-            <header>
-                <h1>HELLO</h1>
-                <h3>my name is</h3>
-            </header>
-            <main>
-                <p><em>Shelby</em></p>
-            </main>
-            <footer></footer>
+    <div class = 'with-button'>
+        <div class = 'border'>
+            <div id = 'backg-color' class = 'container'>
+                <header>
+                    <h1>HELLO</h1>
+                    <h3>my name is</h3>
+                </header>
+                <main>
+                    <dev id = 'updated'>
+                    </dev>
+                    <div id = 'pronoun-placement'>
+
+                    </div>
+                </main>
+                <footer></footer>
+            </div>
+        </div> 
+        <div class = 'name-input'>
+            <input id = 'name' placeholder = 'Your name'/>
+            <button id = 'button'>Click me!</button>
+            <button id = 'lgreen' class = 'green'>Green</button>
+            <button id = 'lblue' class = 'blue'>Blue</button>
+            <button id = 'lpink' class = 'pink'>Pink</button>
         </div>
-    </div> 
+        <div class = 'pronoun'>
+            <input id = 'pronoun-input'/>
+            <button id = 'pronoun-button' class = 'pronoun-button'>Add your pronoun</button>
+        </div>
+        <div id = 'count'>
+
+        </div>
+    </div>  
+    <script type = 'module' src = 'app.js'></script>
 </body>
 </html>
